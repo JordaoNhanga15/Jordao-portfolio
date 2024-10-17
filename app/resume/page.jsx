@@ -64,34 +64,29 @@ const experience = {
   items: [
     {
       company: "ITGest",
-      position: "Software Developer",
-      duration: "2021 - Present",
+      position: "Engenheiro de Software Pleno",
+      duration: "2022 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "ITGest",
+      position: "Engenheiro de Software Júnior,",
+      duration: "February 2021 - January 2022",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
+      company: "IMO Oliveira",
+      position: "Web Developer",
       duration: "2020 - 2021",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
+      company: "NAELPRI",
+      position: "Formador de Programação",
+      duration: "2021",
     },
     {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
-    },
+      company: "MPLA",
+      position: "DIP, Neves Bendinha",
+      duration: "2024 - Present",
+    }
   ],
 };
 
