@@ -1,45 +1,48 @@
 "use client";
 
 import {
-  FaHtml5,
-  FaCss3,
+  FaAngular,
+  FaDocker,
   FaJs,
   FaReact,
   FaFigma,
   FaNodeJs,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiAdonisjs } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
+import { RiReactjsFill } from "react-icons/ri";
+import { SiRabbitmq, SiNextdotjs, SiMongodb } from "react-icons/si";
 
 // about data
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "My experience covers a wide range of technologies and tools, and I'm a head full of dreams, with a passion for studying politics.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Jordão De Oliveira",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+244) 949 533 505",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "5+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "linkedIn",
+      fieldValue: "Jordão De Oliveira",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Angolan",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "jordaonhanga7@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +50,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "Portuguese,English",
     },
   ],
 };
@@ -57,12 +60,12 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Over the past 5 years, I have had the privilege of working in a variety of roles and industries.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "ITGest",
+      position: "Software Developer",
+      duration: "2021 - Present",
     },
     {
       company: "Web Design Studio",
@@ -97,38 +100,48 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I am passionate about learning new technologies and staying up-to-date with the latest industry trends.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
+      institution: "The Linux Foundation",
+      degree: "Node application developer (LFW211)",
+      duration: "2024",
+    },
+    {
+      institution: "Namibia Business Innovation Institute (NBII) - NUST",
+      degree: "English language and communication",
+      duration: "2024",
+    },
+    {
+      institution: "The Linux Foundation",
+      degree: "Developing secure software (LFD 121)",
+      duration: "2024",
+    },
+    {
+      institution: "UTANGA",
+      degree: "Engenharia informática",
+      duration: "2018 - 2024",
+    },
+    {
+      institution: "Udemy",
+      degree: "Reverse engineering, memory hacking and software protection",
       duration: "2023",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
+      institution: "Conquer School",
+      degree: "Produtividade inteligente",
+      duration: "2023",
+    },
+    {
+      institution: "Centro de formação ITGest",
+      degree: "Neurolinguistic programming",
       duration: "2022",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
+      institution: "BUKA",
+      degree: "Desenvolvimento WEB",
       duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+    }
   ],
 };
 
@@ -136,15 +149,19 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Reflect on the skills and knowledge I have acquired throughout my professional journey. I am excited to continue learning and growing as a developer.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaAngular />,
+      name: "Angular.js",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <FaNodeJs />,
+      name: "node.js",
+    },
+    {
+      icon: <SiAdonisjs />,
+      name: "Adonis.js",
     },
     {
       icon: <FaJs />,
@@ -159,16 +176,20 @@ const skills = {
       name: "next.js",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <DiRedis />,
+      name: "Redis",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiRabbitmq />,
+      name: "RabbitMQ",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      icon: <FaDocker />,
+      name: "Docker",
     },
   ],
 };

@@ -22,6 +22,17 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Imobiliária IMO Oliveira",
+    title: "Imobiliária IMO Oliveira",
+    description:
+      "Imo Oliveira is an Angolan real estate company specializing in real estate appraisal and real estate brokerage.",
+    stack: [{ name: "Inertia" }, { name: "Adonis.js" }, { name: "Vue.js" }],
+    image: "/assets/work/imooliveira.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
     category: "Library",
     title: "ngx angular date range",
     description:
@@ -32,27 +43,49 @@ const projects = [
     github: "https://github.com/JordaoNhanga15/angular-date-range-picker",
   },
   {
-    num: "02",
-    category: "fullstack",
-    title: "project 2",
+    num: "03",
+    category: "Twitter clone",
+    title: "Twitter clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "Twitter clone built with React.js",
+    stack: [{ name: "React.js" }],
+    image: "/assets/work/twitterclone.png",
+    live: "https://jordaonhanga15.github.io/",
+    github: "https://github.com/JordaoNhanga15/twitter-clone",
   },
   {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
+    num: "04",
+    category: "LinkedIn clone",
+    title: "LinkedIn clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+      "LinkedIn clone built with React.js",
+    stack: [{ name: "React.js" }],
+    image: "/assets/work/linkedinclone.png",
     live: "",
-    github: "",
+    github: "https://github.com/JordaoNhanga15/linkedin-clone",
   },
+  {
+    num: "05",
+    category: "TAAG",
+    title: "TAAG",
+    description:
+      "TAAG is a social network website built with React.js",
+    stack: [{ name: "React.js" }],
+    image: "/assets/work/taagclone.png",
+    live: "",
+    github: "https://github.com/JordaoNhanga15/TAAG",
+  },
+  {
+    num: "06",
+    category: "Article telephony Angola",
+    title: "Article telephony",
+    description:
+      "Article explaining how to charge for telephony in Angola.",
+    stack: [{ name: "Docs", name: "Article" }],
+    image: "/assets/work/phone.png",
+    live: "https://www.linkedin.com/in/jordao-de-oliveira",
+    github: "",
+  }
 ];
 
 const Work = () => {
@@ -152,10 +185,10 @@ const Work = () => {
                           src={project.image}
                           fill
                           layout="fill"
-                          objectFit="cover"
+                          objectFit="scale-down"
                           objectPosition="center"
-                          quality={100} 
-                          className="rounded-lg" 
+                          quality={100}
+                          className="rounded-lg"
                           alt=""
                         />
                       </div>
