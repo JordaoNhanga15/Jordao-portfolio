@@ -18,7 +18,7 @@ import { SiRabbitmq, SiNextdotjs, SiMongodb } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "My experience covers a wide range of technologies and tools, and I'm a head full of dreams, with a passion for studying politics.",
+    "My experience covers a wide range of technologies and tools, and I&apos;m a head full of dreams, with a passion for studying politics.",
   info: [
     {
       fieldName: "Name",
