@@ -64,12 +64,12 @@ const experience = {
   items: [
     {
       company: "ITGest",
-      position: "Engenheiro de Software Pleno",
+      position: "Pleno Software Engineer",
       duration: "2022 - Present",
     },
     {
       company: "ITGest",
-      position: "Engenheiro de Software Júnior,",
+      position: "Junior Software Engineer",
       duration: "February 2021 - January 2022",
     },
     {
@@ -79,7 +79,7 @@ const experience = {
     },
     {
       company: "NAELPRI",
-      position: "Formador de Programação",
+      position: "Programming trainer",
       duration: "2021",
     },
     {
@@ -114,7 +114,7 @@ const education = {
     },
     {
       institution: "UTANGA",
-      degree: "Engenharia informática",
+      degree: "IT engineering",
       duration: "2018 - 2024",
     },
     {
@@ -124,7 +124,7 @@ const education = {
     },
     {
       institution: "Conquer School",
-      degree: "Produtividade inteligente",
+      degree: "Smart productivity",
       duration: "2023",
     },
     {
@@ -134,7 +134,7 @@ const education = {
     },
     {
       institution: "BUKA",
-      degree: "Desenvolvimento WEB",
+      degree: "Web development",
       duration: "2019",
     }
   ],
