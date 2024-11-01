@@ -28,13 +28,13 @@ const DropdownDownload = () => {
 
       {/* Dropdown Content */}
       {isOpen && (
-        <div className="absolute top-full mt-2 flex flex-col bg-white border border-gray-200 rounded-md shadow-lg space-y-2 w-max p-4 z-50" style={{ background: 'transparent', borderRadius: '20px' }}>
+        <div className="absolute top-full mt-2 flex flex-col bg-white border border-gray-200 rounded-md shadow-lg space-y-2 w-max p-4 z-50" style={{ background: '#111213', borderRadius: '20px' }}>
           {/* English CV Download */}
           <Button
             variant="outline"
             size="lg"
             className="flex items-center gap-2 w-full"
-            onClick={() => window.open("/path-to-english-cv.pdf", "_blank")}
+            onClick={() => window.open("/assets/resume/CVJDINGLES.pdf", "_blank")}
           >
             <FaFlagUsa className="text-xl" />
             <span>English CV</span>
@@ -46,7 +46,7 @@ const DropdownDownload = () => {
             variant="outline"
             size="lg"
             className="flex items-center gap-2 w-full"
-            onClick={() => window.open("/path-to-portuguese-cv.pdf", "_blank")}
+            onClick={() => window.open("/assets/resume/CVJDSEM.pdf", "_blank")}
           >
             <FaFlag className="text-xl" />
             <span>Portuguese CV</span>
